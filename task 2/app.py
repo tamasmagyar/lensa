@@ -1,9 +1,9 @@
 from flask import Flask, url_for, request
 from flask import jsonify
 import json
+import os
 
 app = Flask(__name__)
-
 ITEM_LIST = []
 
 
@@ -11,7 +11,8 @@ class AlreadyInDataBase(Exception):
     pass
 
 
-# todo unexpected errors
+# todo unexpected errorsi
+
 
 def get_data():
     with open("results.json", "r") as input_data:
@@ -34,8 +35,27 @@ def check_if_in_list(data):
         pass
 
 
+def set_backup_file():
+    try:
+        global BACKUP_FILE
+        BACKUP_FILE = os.environ["BACKUP_FILE"]
+        # todo regex hogy mire vegzodik hanem json exception
+    except KeyError:
+        print(f"Backup file is not set. Default is 'backup.json'")
+        BACKUP_FILE = "backup.json"
+
+
+def set_storage():
+    try:
+        global MEMORY_STORAGE
+        MEMORY_STORAGE = os.environ["STORAGE"]
+    except KeyError:
+
+
 def write_data():
-    with open("results.json", "r+") as data_writer:
+    # todo create empty file
+
+    with open(BACKUP_FILE, "r+") as data_writer:
         data = get_data()["items"]  # todo if not exist
         print(f" data: {data}")
         data_to_write = {}
@@ -55,7 +75,6 @@ def api():
         ITEM_LIST.append(data)
         while len(ITEM_LIST) > 9:
             write_data()
-
             del ITEM_LIST[:]
         return f"{data} inserted to database."
     except AlreadyInDataBase:
@@ -65,4 +84,5 @@ def api():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0')
+    set_backup_file()
