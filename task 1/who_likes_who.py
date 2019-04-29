@@ -87,8 +87,8 @@ def read_inputs():
 
 
 def write_results(results):
-    with open('results.json', 'w') as outfile:
-        json.dump(results, outfile, indent=4)
+    with open('results.json', 'w') as result_data:
+        json.dump(results, result_data, indent=4)
 
 
 def main():
