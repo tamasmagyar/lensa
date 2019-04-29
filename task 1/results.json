@@ -1,0 +1,49 @@
+{
+    "Larry": {
+        "hates": [
+            "Karl", 
+            "Jean"
+        ], 
+        "loves": [
+            "Martin"
+        ]
+    }, 
+    "Bob": {
+        "likes": [
+            "Larry", 
+            "Kim"
+        ], 
+        "loves": [
+            "Jean"
+        ]
+    }, 
+    "Jim": {
+        "likes": [
+            "Larry", 
+            "Jean"
+        ], 
+        "hates": [
+            "Kim"
+        ]
+    }, 
+    "Jean": {
+        "hates": [
+            "Kim"
+        ], 
+        "likes": [
+            "Jim"
+        ], 
+        "loves": [
+            "Bob"
+        ]
+    }, 
+    "Kim": {
+        "likes": [
+            "Larry", 
+            "Bob"
+        ], 
+        "hates": [
+            "Jim"
+        ]
+    }
+}
