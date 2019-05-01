@@ -1,0 +1,1 @@
+docker run -e BACKUP_FILE="hm.json" -p 5000:5000 lensa_api
