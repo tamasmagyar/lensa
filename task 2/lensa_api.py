@@ -33,12 +33,13 @@ def get_data():
                 e.g: ["dog", "beer"]
     """
     with open(BACKUP_FILE, "r") as input_data:
-        return json.load(input_data)
+        backup_data = json.load(input_data)
+        return backup_data["items"]
 
 
 def check_if_in_db(data):
     """Checks if @data is already in @BACKUP_FILE."""
-    _check_data_in_storage(get_data()["items"], data)
+    _check_data_in_storage(get_data(), data)
 
 
 def check_if_in_memory(data):
@@ -80,7 +81,7 @@ def write_data_to_file(data_to_append):
     :param data_to_append: data to write
     """
     with open(BACKUP_FILE, "r+") as data_writer:
-        data = get_data()["items"]
+        data = get_data()
         check_if_in_db(data_to_append[0])
         data_to_write = {"items": data + data_to_append}
         json.dump(data_to_write, data_writer)
@@ -108,22 +109,21 @@ def api():
     try:
         while request.method == "GET":
             while STORAGE == "file":
-                return jsonify(get_data()["items"]), 200
+                return jsonify(get_data()), 200
             else:
                 return jsonify(IN_MEMORY_STORAGE), 200
         while request.method == "POST":
             data = request.json["item"]
             while STORAGE == "file":
                 write_data_to_file(data_to_append=[data])
-                print("IM TRIING TO WRITE TO DILFE")
                 break
             else:
                 save_to_memory(data_to_append=data)
             return f"{data} inserted to database."
     except AlreadyInDataBase:
-        return f"{data} is already in DB."
+        return f"'{data}' is already in DB."
     except Exception as e:
-        return f"{e}",
+        return f"Unexpected error: {e}"
 
 
 if __name__ == '__main__':
