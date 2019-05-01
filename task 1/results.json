@@ -1,49 +1,49 @@
 {
-    "Larry": {
-        "hates": [
-            "Karl", 
-            "Jean"
-        ], 
-        "loves": [
-            "Martin"
-        ]
-    }, 
-    "Bob": {
-        "likes": [
-            "Larry", 
-            "Kim"
-        ], 
-        "loves": [
-            "Jean"
-        ]
-    }, 
     "Jim": {
         "likes": [
-            "Larry", 
+            "Larry",
             "Jean"
-        ], 
+        ],
         "hates": [
             "Kim"
         ]
-    }, 
-    "Jean": {
-        "hates": [
-            "Kim"
-        ], 
+    },
+    "Bob": {
+        "loves": [
+            "Jean"
+        ],
         "likes": [
-            "Jim"
-        ], 
+            "Larry",
+            "Kim"
+        ]
+    },
+    "Jean": {
         "loves": [
             "Bob"
-        ]
-    }, 
-    "Kim": {
+        ],
         "likes": [
-            "Larry", 
-            "Bob"
-        ], 
+            "Jim"
+        ],
+        "hates": [
+            "Kim"
+        ]
+    },
+    "Kim": {
         "hates": [
             "Jim"
+        ],
+        "likes": [
+            "Larry",
+            "Bob"
+        ]
+    },
+    "Larry": {
+        "loves": [
+            "Martin"
+        ],
+        "hates": [
+            "Karl",
+            "Jean"
         ]
     }
 }

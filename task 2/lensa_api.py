@@ -32,6 +32,7 @@ def get_data():
     :return:    @BACKUP_FILE's items as a list.
                 e.g: ["dog", "beer"]
     """
+    print(f"getting data from {BACKUP_FILE}")
     with open(BACKUP_FILE, "r") as input_data:
         backup_data = json.load(input_data)
         return backup_data["items"]
@@ -71,7 +72,7 @@ def save_to_memory(data_to_append):
     IN_MEMORY_STORAGE.append(data_to_append)
     while len(IN_MEMORY_STORAGE) % 10 == 0:
         write_data_to_file(IN_MEMORY_STORAGE[-10:])
-        print("Data saved to file.")
+        print(f"Data saved to {BACKUP_FILE}.")
         break
 
 
