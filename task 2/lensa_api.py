@@ -116,17 +116,6 @@ def api():
         return f"Unexpected error: {e} |trace {traceback.format_exc()}", exceptions.BadRequest.code
 
 
-# def set_args():
-#     """
-#     Sets backup file and storage type.
-#         Backup file:    sunshine.json
-#                     default is backup.json
-#         Storage:    If it's set to 'file' then writes put requests' data to backup file.
-#                     Else    Stores in memory and writes to file after 10 successful put requests.
-#     """
-
-
 if __name__ == '__main__':
-    # set_args()
     check_storage()
     app.run(host='0.0.0.0')
