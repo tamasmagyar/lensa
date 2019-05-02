@@ -4,9 +4,8 @@
     <list default="true" id="2066095a-9eb2-442c-b8cb-b064d392ca8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task 1/results.json" beforeDir="false" afterPath="$PROJECT_DIR$/task 1/results.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task 1/who_likes_who.py" beforeDir="false" afterPath="$PROJECT_DIR$/task 1/who_likes_who.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task 2/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/task 2/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task 2/backup.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/task 2/lensa_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/task 2/lensa_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task 2/lensa_api_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/task 2/lensa_api_test.py" afterDir="false" />
     </list>
@@ -25,8 +24,8 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="289">
-                <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="87" />
+              <first_editor relative-caret-position="229">
+                <caret line="17" column="78" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="100" />
               </first_editor>
               <second_editor />
             </state>
@@ -34,10 +33,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task 1/who_likes_who.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1207">
+              <caret line="71" column="37" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task 2/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -45,10 +53,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task 2/lensa_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="435">
+              <caret line="130" column="16" lean-forward="true" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,11 +65,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task 2/lensa_api_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            <state relative-caret-position="340">
+              <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/requests/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -80,6 +102,10 @@
       <find>connec</find>
       <find>results</find>
       <find>data:</find>
+      <find>code = 405</find>
+      <find>code = 400</find>
+      <find>code = 40</find>
+      <find>gett</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -93,7 +119,6 @@
         <option value="$PROJECT_DIR$/task 1/a.py" />
         <option value="$PROJECT_DIR$/task 2/ap.py" />
         <option value="$PROJECT_DIR$/task 2/test_app.py" />
-        <option value="$PROJECT_DIR$/task 1/who_likes_who.py" />
         <option value="$PROJECT_DIR$/task 2/exceptions.py" />
         <option value="$PROJECT_DIR$/task 2/__init__.py" />
         <option value="$PROJECT_DIR$/task 2/my_exceptions.py" />
@@ -108,11 +133,16 @@
         <option value="$PROJECT_DIR$/task 2/aqa.py" />
         <option value="$PROJECT_DIR$/task 2/as.py" />
         <option value="$PROJECT_DIR$/task 2/hm.py" />
-        <option value="$PROJECT_DIR$/task 2/Dockerfile" />
-        <option value="$PROJECT_DIR$/task 2/lensa_api.py" />
         <option value="$PROJECT_DIR$/task 1/inputs.txt" />
+        <option value="$PROJECT_DIR$/task 1/who_likes_who.py" />
+        <option value="$PROJECT_DIR$/task 2/asdlensa_api_test.py" />
+        <option value="$PROJECT_DIR$/task 2/tests/lensa_api_test.py" />
+        <option value="$PROJECT_DIR$/task 2/asd.py" />
+        <option value="$PROJECT_DIR$/task 2/test_data.py" />
         <option value="$PROJECT_DIR$/task 2/lensa_api_test.py" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/task 2/lensa_api.py" />
+        <option value="$PROJECT_DIR$/task 2/Dockerfile" />
       </list>
     </option>
   </component>
@@ -153,10 +183,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/Anaconda3/Scripts/pylint.exe" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\REPO\lensa\task 2\test_data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\REPO\lensa\task 2\tests" />
       <recent name="B:\REPO\lensa\task 2" />
     </key>
   </component>
@@ -172,8 +207,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for lensa_api_test.TestFlaskApi.test_clean_api">
-    <configuration name="as" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.lensa_api_test">
+    <configuration name="asd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lensa" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,7 +220,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task 2/as.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task 2/asd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,7 +250,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="who_likes_who" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="lensa_api_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lensa" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,11 +258,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task 1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task 2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task 1/who_likes_who.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task 2/lensa_api_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,7 +271,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for lensa_api_test.TestFlaskApi.test_clean_api" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for lensa_api_test.TestFlaskApi" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="lensa" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,7 +281,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;lensa_api_test.TestFlaskApi.test_clean_api&quot;" />
+      <option name="_new_target" value="&quot;lensa_api_test.TestFlaskApi&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -266,11 +301,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for lensa_api_test.TestFlaskApi.test_clean_api" />
-        <item itemvalue="Python.who_likes_who" />
-        <item itemvalue="Python.as" />
-        <item itemvalue="Python.lensa_api" />
+        <item itemvalue="Python.lensa_api_test" />
+        <item itemvalue="Python tests.Unittests for lensa_api_test.TestFlaskApi" />
         <item itemvalue="Python tests.Unittests in lensa_api_test.py" />
+        <item itemvalue="Python.lensa_api" />
+        <item itemvalue="Python.asd" />
       </list>
     </recent_temporary>
   </component>
@@ -285,64 +320,84 @@
       <option name="presentableId" value="Default" />
       <updated>1556547961643</updated>
     </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_lensa_api_test_TestFlaskApi - 2019.05.01 at 18h 43m 35s.xml">
+    <history-entry file="Unittests_for_lensa_api_test_TestFlaskApi - 2019.05.02 at 20h 00m 22s.xml">
       <configuration name="Unittests for lensa_api_test.TestFlaskApi" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_lensa_api_test_py - 2019.05.01 at 18h 44m 39s.xml">
-      <configuration name="Unittests in lensa_api_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_lensa_api_test_TestFlaskApi - 2019.05.01 at 18h 44m 52s.xml">
+    <history-entry file="Unittests_for_lensa_api_test_TestFlaskApi - 2019.05.02 at 20h 05m 15s.xml">
       <configuration name="Unittests for lensa_api_test.TestFlaskApi" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_lensa_api_test_TestFlaskApi_test_clean_api - 2019.05.01 at 18h 45m 02s.xml">
-      <configuration name="Unittests for lensa_api_test.TestFlaskApi.test_clean_api" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_lensa_api_test_TestFlaskApi - 2019.05.01 at 18h 46m 11s.xml">
+    <history-entry file="Unittests_for_lensa_api_test_TestFlaskApi - 2019.05.02 at 20h 06m 15s.xml">
       <configuration name="Unittests for lensa_api_test.TestFlaskApi" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_lensa_api_test_py - 2019.05.01 at 18h 46m 34s.xml">
+    <history-entry file="Unittests_for_lensa_api_test_TestFlaskApi - 2019.05.02 at 20h 10m 08s.xml">
+      <configuration name="Unittests for lensa_api_test.TestFlaskApi" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_lensa_api_test_py - 2019.05.02 at 20h 13m 46s.xml">
       <configuration name="Unittests in lensa_api_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_lensa_api_test_TestFlaskApi_test_clean_api - 2019.05.01 at 18h 47m 09s.xml">
-      <configuration name="Unittests for lensa_api_test.TestFlaskApi.test_clean_api" configurationId="tests" />
+    <history-entry file="Unittests_for_lensa_api_test_TestFlaskApi - 2019.05.02 at 20h 14m 04s.xml">
+      <configuration name="Unittests for lensa_api_test.TestFlaskApi" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_lensa_api_test_py - 2019.05.01 at 18h 47m 26s.xml">
+    <history-entry file="Unittests_for_lensa_api_test_TestFlaskApi - 2019.05.02 at 20h 14m 44s.xml">
+      <configuration name="Unittests for lensa_api_test.TestFlaskApi" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_lensa_api_test_py - 2019.05.02 at 20h 14m 51s.xml">
       <configuration name="Unittests in lensa_api_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_lensa_api_test_py - 2019.05.01 at 18h 47m 35s.xml">
+    <history-entry file="Unittests_in_lensa_api_test_py - 2019.05.02 at 20h 20m 32s.xml">
       <configuration name="Unittests in lensa_api_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_lensa_api_test_TestFlaskApi_test_clean_api - 2019.05.01 at 22h 26m 03s.xml">
-      <configuration name="Unittests for lensa_api_test.TestFlaskApi.test_clean_api" configurationId="tests" />
+    <history-entry file="Unittests_for_lensa_api_test_TestFlaskApi - 2019.05.02 at 20h 26m 56s.xml">
+      <configuration name="Unittests for lensa_api_test.TestFlaskApi" configurationId="tests" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49434572" visible="true" weight="0.24973656" />
-      <window_info id="Structure" order="1" sideWeight="0.5056543" side_tool="true" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48949918" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" sideWeight="0.5105008" side_tool="true" visible="true" weight="0.24973656" />
       <window_info id="Favorites" order="2" sideWeight="0.5024233" side_tool="true" weight="0.24973656" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49841937" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49420443" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49420443" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Pylint" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5057956" side_tool="true" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49578503" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50632244" side_tool="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49578503" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/task 2/tests/lensa_api_test.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/task 1/data.json" />
@@ -394,13 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="842" column="8" selection-start-line="842" selection-start-column="8" selection-end-line="842" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="537">
@@ -408,34 +456,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task 2/as.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task 2/hm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task 1/who_likes_who.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-279">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task 2/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/task 2/as.py" />
+    <entry file="file://$PROJECT_DIR$/task 2/hm.py" />
     <entry file="file://$PROJECT_DIR$/task 1/results.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -450,10 +472,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/task 2/tests/lensa_api_test.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/requests/sessions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="569" column="8" selection-start-line="569" selection-start-column="8" selection-end-line="569" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="2205" column="8" selection-start-line="2205" selection-start-column="8" selection-end-line="2205" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/werkzeug/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="192" column="6" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task 2/asd.py" />
+    <entry file="file://$PROJECT_DIR$/task 2/test_data/test_data.py" />
+    <entry file="file://$PROJECT_DIR$/task 1/who_likes_who.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="37" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/requests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/task 2/lensa_api_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        <state relative-caret-position="340">
+          <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -462,19 +525,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task 2/lensa_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="435">
+          <caret line="130" column="16" lean-forward="true" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task 2/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="289">
-            <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="87" />
+          <first_editor relative-caret-position="229">
+            <caret line="17" column="78" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="100" />
           </first_editor>
           <second_editor />
         </state>

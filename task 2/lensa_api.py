@@ -1,10 +1,17 @@
-from flask import Flask, request
-from flask import jsonify
-import json
+from flask import Flask, request, jsonify
+from werkzeug import exceptions
 import argparse
+import json
+import traceback
 
 app = Flask(__name__)
 IN_MEMORY_STORAGE = []
+parser = argparse.ArgumentParser()
+parser.add_argument("--backup_file", help="backup file name, should end with '.json'", default="backup.json")
+parser.add_argument("--storage", help="storage type, if set to file stores all the data in a file, else in memory",
+                    default="file")
+args = parser.parse_args()
+BACKUP_FILE, STORAGE = args.backup_file, args.storage
 
 
 class AlreadyInDataBase(Exception):
@@ -32,7 +39,6 @@ def get_data():
     :return:    @BACKUP_FILE's items as a list.
                 e.g: ["dog", "beer"]
     """
-    print(f"getting data from {BACKUP_FILE}")
     with open(BACKUP_FILE, "r") as input_data:
         backup_data = json.load(input_data)
         return backup_data["items"]
@@ -88,23 +94,6 @@ def write_data_to_file(data_to_append):
         json.dump(data_to_write, data_writer)
 
 
-def set_args():
-    """
-    Sets backup file and storage type.
-        Backup file:    sunshine.json
-                    default is backup.json
-        Storage:    If it's set to 'file' then writes put requests' data to backup file.
-                    Else    Stores in memory and writes to file after 10 successful put requests.
-    """
-    global BACKUP_FILE, STORAGE
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--backup_file", help="backup file name, should end with '.json'", default="backup.json")
-    parser.add_argument("--storage", help="storage type, if set to file stores all the data in a file, else in memory",
-                        default="file")
-    args = parser.parse_args()
-    BACKUP_FILE, STORAGE = args.backup_file, args.storage
-
-
 @app.route('/', methods=['GET', 'POST'])
 def api():
     try:
@@ -120,14 +109,24 @@ def api():
                 break
             else:
                 save_to_memory(data_to_append=data)
-            return f"{data} inserted to database."
+            return f"{data} inserted to database.", 200
     except AlreadyInDataBase:
-        return f"'{data}' is already in DB."
+        return f"'{data}' is already in DB.", exceptions.Conflict.code
     except Exception as e:
-        return f"Unexpected error: {e}"
+        return f"Unexpected error: {e} |trace {traceback.format_exc()}", exceptions.BadRequest.code
+
+
+# def set_args():
+#     """
+#     Sets backup file and storage type.
+#         Backup file:    sunshine.json
+#                     default is backup.json
+#         Storage:    If it's set to 'file' then writes put requests' data to backup file.
+#                     Else    Stores in memory and writes to file after 10 successful put requests.
+#     """
 
 
 if __name__ == '__main__':
-    set_args()
+    # set_args()
     check_storage()
     app.run(host='0.0.0.0')

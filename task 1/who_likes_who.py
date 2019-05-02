@@ -9,8 +9,7 @@ def is_breaker(word):
     Checks if @word is a breaker, so ends with ',' or a '\n'
         - ',' means a new feelings starts in the sentence.
         - '\n' means it's the last word.
-    :param word:
-    :return:
+    :param word: Word to check.
     """
     last_char = word[-1]
     return True if last_char == "," or last_char == "\n" else False
@@ -70,7 +69,7 @@ def get_connections(words):
 def get_result(data):
     """
     Iterates through @data and collects result.
-    :param data:
+    :param data: Input data to check.
     :return: Results about who likes who.
     """
     result = {}
