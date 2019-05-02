@@ -4,6 +4,7 @@
 ## WITHOUT DOCKER
 
 -   py -3 lensa_api.py --storage=file --backup_file=db.json
+    - Note: requirements are in requirements.txt
 
 ## WITH DOCKER
 
